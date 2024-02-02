@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master_page.master.cs" Inherits="My_First_Project1.Master_page" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="CSS/style.css" rel="stylesheet"/>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class=" wrapper ">
+            <h3 class ="header">This is a header page</h3>
+            <img src="Images/online.jpg" width = "900px "   />
+        <div class="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <h3 class ="footer">All Right Reserved &copy 2018</h3>
+
+            </div>
+    </form>
+</body>
+</html>
